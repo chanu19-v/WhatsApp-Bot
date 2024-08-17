@@ -42,7 +42,7 @@ We are not responsible for any problems caused by your use of this!
 
 ## Deployment Methods
 ---
-1. ***Get [`SESSION ID`](http://youtube.com/redirect?event=comments&redir_token=QUFFLUhqa2h3c0xNU0JvRmplNkxqRTRUamk1bGxMQ2tXZ3xBQ3Jtc0trdTZYam44aWRzdnJjRDhqX3djVTJIY25Sc1YwWDVja2hHZ1FuaElSdGZjQURqX0ZIbEVmMmVpTUlPYTJFa29XX0d0UUxaWWZMelBVZ)  by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ***Get [`SESSION ID`](https://pair-web-public.koyeb.app/)  by scanning QR code. `Whatapp>Three dots>Linked Devices`***
    
 2.  ***Deploy on [`HEROKU`](https://suhail-web.vercel.app//deploy?platform=heroku)***
 4.  ***Deploy on [`Replit`](https://suhail-web.vercel.app/deploy?platform=replit)***  
