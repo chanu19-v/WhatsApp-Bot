@@ -17,7 +17,7 @@ const searsh = await yts(q)
 const data = search.videos[0];
 const url = data.url
 
-let desc = '
+let desc = `
 ⭐ *CHANU-MD-BOT SONG DOWNLOADER* ⭐
 
 title: ${data.title}
@@ -26,7 +26,7 @@ time: ${data.timestamp}
 ago: ${data.ago}
 views: ${data.viewa}
 MADE BY CHANU-MD-BOT😵‍💫
-'
+`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
   
 //download audio
@@ -45,7 +45,7 @@ await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/eg",fil
                              
 }catch(e){
 console.log(e)
-reply('${e}')
+reply(`${e}`)
 }
 })
   
@@ -65,7 +65,7 @@ const searsh = await yts(q)
 const data = search.videos[0];
 const url = data.url
 
-let desc = '
+let desc = `
 ⭐ *CHANU-MD-BOT VIDEO DOWNLOADER* ⭐
 
 title: ${data.title}
@@ -74,7 +74,7 @@ time: ${data.timestamp}
 ago: ${data.ago}
 views: ${data.viewa}
 MADE BY CHANU-MD-BOT😵‍💫
-'
+`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
   
 //download video
@@ -92,6 +92,6 @@ await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fi
                              
 }catch(e){
 console.log(e)
-reply('${e}')
+reply(`${e}`)
 }
 })
